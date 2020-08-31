@@ -1,6 +1,6 @@
 package taller3.televisores;
 
-public class TV {
+class TV {
 	Marca marca;
 	int canal = 1;
 	int precio = 500;
@@ -98,7 +98,7 @@ public class TV {
 		numTV = num;
 	}
 	
-	static int getNumtv() {
+	static int getNumTV() {
 		return numTV;
 	}
 

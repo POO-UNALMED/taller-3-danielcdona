@@ -1,6 +1,6 @@
 package taller3.televisores;
 
-public class Control {
+class Control {
 	TV tv;
 	
 	void enlazar(TV tv){
