@@ -69,27 +69,27 @@ class TV {
 	}
 	
 	void canalUp() {
-		if (canal <=120) {
+		if (canal <120) {
 			canal++;	
 		}
 		
 	}
 	
 	void canalDown() {
-		if (canal>0) {
+		if (canal>1) {
 			canal--;
 		}
 	}
 	
 	void volumenUp() {
-		if (volumen<=7 && (estado = true)) {
+		if (volumen<7 && (estado = true)) {
 			volumen++;
 		}	
 		
 	}
 	
 	void volumenDown() {
-		if (volumen>=0 && (estado = true)) {
+		if (volumen>0 && (estado = true)) {
 			volumen--;
 		}	
 	}
