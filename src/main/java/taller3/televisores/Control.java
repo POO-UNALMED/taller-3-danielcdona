@@ -8,39 +8,39 @@ public class Control {
 		this.tv.setControl(this);
 	}
 	
-	void turnOn() {
+	public void turnOn() {
 		tv.turnOn();
 	}
 	
-	void turnOff() {
+	public void turnOff() {
 		tv.turnOff();
 	}
 	
-	void volumenUp() {
+	public void volumenUp() {
 		tv.volumenUp();
 	}
 	
-	void volumenDown() {
+	public void volumenDown() {
 		tv.volumenDown();
 	}
 	
-	void canalUp() {
+	public void canalUp() {
 		tv.canalUp();
 	}
 	
-	void canalDown() {
+	public void canalDown() {
 		tv.canalDown();
 	}
 	
-	void setCanal(int canal) {
+	public void setCanal(int canal) {
 		tv.setCanal(canal);
 	}
 	
-	void setTv(TV tv) {
+	public void setTv(TV tv) {
 		this.tv = tv;
 	}
 	
-	TV getTv() {
+	public TV getTv() {
 		return tv;
 	}
 	

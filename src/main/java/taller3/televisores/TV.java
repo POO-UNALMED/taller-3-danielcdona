@@ -16,89 +16,89 @@ public class TV {
 		numTV++;
 	}
 	
-	Marca getMarca() {
+	public Marca getMarca() {
 		return marca;
 	}
 	
-	void setMarca(Marca marca) {
+	public void setMarca(Marca marca) {
 		this.marca = marca;
 	}
 	
-	Control getControl() {
+	public Control getControl() {
 		return control;
 	}
 	
-	void setControl(Control control) {
+	public void setControl(Control control) {
 		this.control = control;
 	}
 	
-	int getPrecio() {
+	public int getPrecio() {
 		return precio;
 	}
 	
-	void setPrecio(int precio) {
+	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 	
-	int getVolumen() {
+	public int getVolumen() {
 		return volumen;
 	}
 	
-	void setVolumen(int volumen) {
+	public void setVolumen(int volumen) {
 		this.volumen = volumen;
 	}
 	
-	int getCanal() {
+	public int getCanal() {
 		return canal;
 	}
 	
-	void setCanal(int canal) {
+	public void setCanal(int canal) {
 		this.canal = canal;
 	}
 	
-	void turnOn() {
+	public void turnOn() {
 		estado = true;
 	}
 	
-	void turnOff() {
+	public void turnOff() {
 		estado = false;
 	}
 	
-	boolean getEstado() {
+	public boolean getEstado() {
 		return estado;
 	}
 	
-	void canalUp() {
+	public void canalUp() {
 		if (canal <120) {
 			canal++;	
 		}
 		
 	}
 	
-	void canalDown() {
+	public void canalDown() {
 		if (canal>1) {
 			canal--;
 		}
 	}
 	
-	void volumenUp() {
+	public void volumenUp() {
 		if (volumen<7 && (estado = true)) {
 			volumen++;
 		}	
 		
 	}
 	
-	void volumenDown() {
+	public void volumenDown() {
 		if (volumen>0 && (estado = true)) {
 			volumen--;
 		}	
 	}
 	
-	void setNumTV(int num){
+	public void setNumTV(int num){
 		numTV = num;
 	}
 	
-	static int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 
