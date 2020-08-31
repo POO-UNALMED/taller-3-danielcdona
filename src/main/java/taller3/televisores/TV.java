@@ -1,16 +1,16 @@
 package taller3.televisores;
 
-class TV {
-	Marca marca;
-	int canal = 1;
-	int precio = 500;
-	boolean estado;
-	int volumen = 1;
-	Control control;
-	static int numTV = 0;
+public class TV {
+	public Marca marca;
+	public int canal = 1;
+	public int precio = 500;
+	public boolean estado;
+	public int volumen = 1;
+	public Control control;
+	public static int numTV = 0;
 	
 	
-	TV(Marca marca, boolean estado){
+	public TV(Marca marca, boolean estado){
 		this.marca = marca;
 		this.estado = estado;
 		numTV++;
