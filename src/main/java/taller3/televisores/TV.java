@@ -93,6 +93,8 @@ class TV {
 		}	
 	}
 	
-	
+	static int getNumtv() {
+		return numTV;
+	}
 
 }
